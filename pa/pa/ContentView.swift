@@ -10,11 +10,13 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
+            Spacer()
             Image("logo")
-                .resizable().aspectRatio(contentMode: .fit)
+            Spacer()
             HStack {
                 Text("SimpleX Chat")
-                Text("- The most private!")
+                Spacer()
+                Text("v1.0")
             }
         }
 
