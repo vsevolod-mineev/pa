@@ -9,7 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Image("logo")
+        VStack {
+            Image("logo")
+                .resizable().aspectRatio(contentMode: .fit)
+            HStack {
+                Text("SimpleX Chat")
+                Text("- The most private!")
+            }
+        }
+
     }
 }
 
