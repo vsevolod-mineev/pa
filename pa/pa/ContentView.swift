@@ -14,7 +14,7 @@ struct ContentView: View {
             Image("logo")
             Spacer()
             HStack {
-                Text("SimpleX Chat")
+                Text("SimpleX Chat - Commit")
                 Spacer()
                 Text("v1.0")
             }
